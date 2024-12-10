@@ -30,11 +30,7 @@ By splitting downloads based on annotation score and sequence length ranges, you
 Select bacteria using Taxonomy ID = 2.
 
 ### 3. Annotation Score-Based Downloads
-Retrieve subsets of data according to annotation score. Use queries like:
-
-https://www.uniprot.org/uniprotkb?query=(taxonomy_id:2) AND (go:0008150)&facets=annotation_score:X
-
-Replace `X` with the desired annotation score (1 to 5).
+Retrieve subsets of data according to annotation score.
 
 **Examples:**
 - **Annotation Score 5:**  
